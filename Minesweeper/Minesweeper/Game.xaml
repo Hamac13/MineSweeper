@@ -6,17 +6,17 @@
         xmlns:local="clr-namespace:Minesweeper"
         mc:Ignorable="d"
         Title="Game" Height="450" Width="800">
-    <Grid x:Name="mainGrid">
+    <Grid Name="mainGrid" ShowGridLines="False">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"></ColumnDefinition>
-            
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
-        <Button x:Name="btn_menu" Margin="271,0,-313,0">Menu</Button>
-        <Button x:Name="btn_reset" Margin="334,0,-379,0">Reset</Button>
-        <Button x:Name="btn_flag" Margin="400,0,-439,0">Flag</Button>
+        <Button x:Name="btn_Menu" Padding="10" Margin="10,10,-89,10" Grid.Row="1" BorderBrush="Black" Click="btn_Menu_Click">Menu</Button>
+        <Button x:Name="btn_NewGame" Padding="10" Margin ="115,10,-194,10" Grid.Row="1" HorizontalAlignment="Left" Width="100" BorderBrush="Black" Click="btn_NewGame_Click">NewGame</Button>
+        <Button x:Name="btn_flag" Padding="10" Margin ="220,10,-299,10" Grid.Row="1" HorizontalAlignment="Left" Width="100" BorderBrush="Black" Background="LightGray" Click="btn_flag_Click">Flag</Button>
+        <Label x:Name="lbl_Mine_Guesses" Margin="325,10,-463,10" Grid.Row="1"></Label>
     </Grid>
 </Window>

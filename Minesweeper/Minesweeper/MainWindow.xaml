@@ -11,11 +11,11 @@
         <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
         <Slider x:Name="sldr_GridSize" HorizontalAlignment="Left" Margin="60,164,0,0" VerticalAlignment="Top" Width="170" Maximum="50" Minimum="0" TickPlacement="Both" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="sldr_GridSize_ValueChanged"/>
         <Label Content="Grid Size" HorizontalAlignment="Left" Height="28" Margin="60,131,0,0" VerticalAlignment="Top" Width="170"/>
-        <TextBlock x:Name="txb_GridSize" HorizontalAlignment="Left" Height="28" Margin="60,211,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="170"/>
+        <TextBlock x:Name="txb_GridSize" HorizontalAlignment="Left" Height="28" Margin="60,211,0,0" TextWrapping="Wrap" Text="9" VerticalAlignment="Top" Width="170"/>
         <Slider x:Name="sldr_Mines" HorizontalAlignment="Left" Margin="278,164,0,0" VerticalAlignment="Top" Width="170" Maximum="100" Minimum="0" TickPlacement="Both" TickFrequency="1" IsSnapToTickEnabled="True" ValueChanged="sldr_Mines_ValueChanged"/>
         <Button x:Name="btn_NewGame" Content="New Game" HorizontalAlignment="Left" Height="51" Margin="501,143,0,0" VerticalAlignment="Top" Width="107" Click="Button_Click"/>
         <Label Content="Mines" HorizontalAlignment="Left" Height="33" Margin="278,131,0,0" VerticalAlignment="Top" Width="170"/>
         <TextBlock x:Name="txb_Mines" HorizontalAlignment="Left" Height="28" Margin="278,211,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="170"/>
-
+        
     </Grid>
 </Window>
