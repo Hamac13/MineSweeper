@@ -57,6 +57,5 @@ namespace Minesweeper
             sldr_Mines.Minimum = 1;
             txb_Mines.Text = sldr_Mines.Value.ToString(); 
         }
-      
     }
 }

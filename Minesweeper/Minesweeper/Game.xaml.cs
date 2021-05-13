@@ -92,7 +92,6 @@ namespace Minesweeper
         //logic for when user clicks on cell in grid
         private void GridClick(object sender, RoutedEventArgs e)
         {
-            
             int win = 0;
             Button btn = sender as Button;
             //Console.WriteLine(gameArray[(int)btn.GetValue(Grid.ColumnProperty), (int)btn.GetValue(Grid.RowProperty)]);
@@ -120,7 +119,6 @@ namespace Minesweeper
                         {
                             win++;
                         }
-
                     }
                 }
                 
@@ -129,7 +127,6 @@ namespace Minesweeper
                     timer.Stop();
                     
                     MessageBox.Show($"Time: {timer.Elapsed}", "win");
-
                 }
             }
 
@@ -138,7 +135,7 @@ namespace Minesweeper
                 int y = (int)btn.GetValue(Grid.RowProperty) - 2;
                 int x = (int)btn.GetValue(Grid.ColumnProperty) - 1;
                 
-                if (gameArray[y, x] == "*")
+                if (gameArray[y, x] == "*" && buttonGrid[y, x].Background != Brushes.Red)
                 {
                     
                     for (int rowi = 0; rowi < gridsize; rowi++)
@@ -155,9 +152,9 @@ namespace Minesweeper
                     timer.Stop();
                     MessageBox.Show($"Time: {timer.Elapsed}", "Loss");
                     
-                    Console.WriteLine($"{timer.Elapsed}");
+                    //Console.WriteLine($"{timer.Elapsed}");
                 }
-                else
+                else if (gameArray[y, x] != "*")
                 {
                     btn.Background = Brushes.Transparent;
                     btn.Content = gameArray[y, x];
@@ -176,8 +173,7 @@ namespace Minesweeper
                             else if (buttonGrid[rowi, columni].Background == Brushes.Red && gameArray[rowi, columni] == "*")
                             {
                                 win++;
-                            }
-                            
+                            }  
                         }
                     }
                 }
@@ -187,7 +183,7 @@ namespace Minesweeper
                     timer.Stop();
                     MessageBox.Show($"Time: {timer.Elapsed}", "win");
                     
-                    Console.WriteLine($"{timer.Elapsed}");
+                    //Console.WriteLine($"{timer.Elapsed}");
                 }
             }
         }
@@ -211,6 +207,7 @@ namespace Minesweeper
                 {
                     buttonGrid[columni, rowi].Content = "";
                     buttonGrid[columni, rowi].Background = Brushes.LightGray;
+                    buttonGrid[columni, rowi].Tag = "";
                 }
             }
         }
@@ -296,8 +293,6 @@ namespace Minesweeper
         //function to clear neighbouring 0 cells when 0 is clicked
         public static void CheckZero(int x, int y)
         {
-
-            int num = 0;
             int i1 = -1;
             int c1 = -1;
             int i2 = 1;
@@ -332,6 +327,5 @@ namespace Minesweeper
                 }
             }
         }
-
     }
 }
