@@ -49,3 +49,20 @@ C:\Users\h.w.mcleod\Desktop\Minesweeper - Copy\Minesweeper\obj\Debug\Minesweeper
 C:\Users\h.w.mcleod\Desktop\Minesweeper - Copy\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
 C:\Users\h.w.mcleod\Desktop\Minesweeper - Copy\Minesweeper\obj\Debug\Minesweeper.exe
 C:\Users\h.w.mcleod\Desktop\Minesweeper - Copy\Minesweeper\obj\Debug\Minesweeper.pdb
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\bin\Debug\Minesweeper.exe.config
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\bin\Debug\Minesweeper.exe
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\bin\Debug\Minesweeper.pdb
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Minesweeper.csprojAssemblyReference.cache
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Game.g.cs
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\MainWindow.g.cs
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\App.g.cs
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Minesweeper_MarkupCompile.cache
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Minesweeper_MarkupCompile.lref
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Game.baml
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\MainWindow.baml
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Minesweeper.g.resources
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Minesweeper.Properties.Resources.resources
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Minesweeper.csproj.GenerateResource.cache
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Minesweeper.csproj.CoreCompileInputs.cache
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Minesweeper.exe
+C:\Users\h.w.mcleod\Desktop\Github\MineSweeper\V1\Minesweeper\obj\Debug\Minesweeper.pdb
